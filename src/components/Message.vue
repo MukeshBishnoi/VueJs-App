@@ -11,6 +11,7 @@ export default {
     name:'msg',
     data(){
         return {
+            // Header message for application
             heading: 'VueJs APP',
             platform: 'NASDAQ Stock Trading Platform'
         }

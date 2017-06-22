@@ -19,6 +19,7 @@ export default {
     name: 'demo',
     data () {
         return {
+            //News feed have been data picked from store
             newsData: this.$store.state.newsData
         }
     }

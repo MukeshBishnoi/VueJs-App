@@ -33,10 +33,11 @@ Vuex:  https://vuex.vuejs.org/en/intro.html
 
 Note
 
-Monotype VueJs App currently demonstrator features of both VueJs and Vuex.
-In VueJs it uses feature Vue instance like constructor, methods etc. 
-Apart from basics it also contains use of template syntax, computed properties, class binding, conditional & list rendering and components.
-State Management has been achieved by Vuex.
+•	All the components have been created using VueJs and state management has been achieved by Vuex.
+•	Major functionality and properties of VueJs and Vuex being used are:
+Components, template, props, computed, class, filters, methods, binding
+attributes, conditional and list rendering, store, state et cetera.
+•	We can also sort our data based on the respective columns field.
 
 
 

@@ -2,6 +2,7 @@
 
 import Vue from 'vue';
 import App from './App';
+// Store for state
 import { store } from './store';
 
 Vue.config.productionTip = false;

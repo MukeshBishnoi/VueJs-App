@@ -13,7 +13,7 @@ export default {
     name: 'demo',
     data(){
         return {
-            arr: ['symbol', 'last','change','open','high','low','vol','headCnt'],
+            //watchList data have been picked from store
             gridColumns: this.$store.state.Columns,
             gridData: this.$store.state.Data
         }
@@ -70,11 +70,13 @@ export default {
             }
         },
         filters: {
+            // Filter to make table headerss in capital letter
             capitalize: function (str) {
             return str.charAt(0).toUpperCase() + str.slice(1)
             }
         },
         methods: {
+            //methods to sort data with respective columns
             sortBy: function (key) {
             this.sortKey = key
             this.sortOrders[key] = this.sortOrders[key] * -1

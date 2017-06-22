@@ -8,6 +8,7 @@
 </template>
 
 <script>
+//Impoerted Components
 import Message from './components/Message';
 import WatchList from './components/WatchList';
 import News from './components/News';
