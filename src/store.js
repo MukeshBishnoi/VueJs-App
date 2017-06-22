@@ -28,3 +28,18 @@ export const store = new Vuex.Store({
         ]
     }
 });
+
+
+    //Code snippet to get the xml response from url
+
+    //      {
+    //         var _this = this;
+    //         var request = new XMLHttpRequest();
+    //         request.open('GET', 'http://www.nasdaq.com/aspxcontent/NasdaqRSS.aspx?data=quotes&symbol=TYPE&symbol=GOOGL', true);
+    //         request.onreadystatechange = function() {
+    //                 if (request.readyState === 4  && x.status == 200) {
+    //                     _this.response = request.responseText; 
+    //                 }
+    //             }
+    //         request.send();
+    //     }
